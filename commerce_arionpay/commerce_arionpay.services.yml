@@ -1,0 +1,5 @@
+services:
+  commerce_arionpay.filter_gateways:
+    class: Drupal\commerce_arionpay\EventSubscriber\FilterGatewaysSubscriber
+    tags:
+      - { name: event_subscriber }

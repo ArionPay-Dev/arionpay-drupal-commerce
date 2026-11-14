@@ -1,0 +1,12 @@
+{
+    "name": "drupal/commerce_arionpay",
+    "description": "Crypto payments for Drupal Commerce through ArionPay, paid straight to your own wallet.",
+    "type": "drupal-module",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://arionpay.com",
+    "require": {
+        "php": ">=8.1",
+        "drupal/commerce": "^2.40 || ^3.0",
+        "arionpay/arionpay-php": "^1.0"
+    }
+}
